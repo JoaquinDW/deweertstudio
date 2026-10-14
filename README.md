@@ -43,3 +43,5 @@ La demo se integra mediante un iframe de contenido propio y del mismo origen con
 El hero rota seis eventos ficticios de Sorteos, MIGYM y SmartTurnos: compra de chances, alta de socio, asistencia, registro de paciente, reprogramación y confirmación de turno. Los botones de cada sistema permiten recorrer sus ejemplos y el control de pausa detiene el ciclo. No se conectan APIs ni se usan datos reales.
 
 Las animaciones se suspenden cuando el hero sale de la vista o la pestaña pasa a segundo plano. Se respeta `prefers-reduced-motion`; los ejemplos siguen disponibles manualmente sin animación.
+
+La red del hero también muestra webs a medida, sistemas de gestión, integraciones y automatizaciones como especialidades estáticas. Estas cuatro categorías no generan notificaciones ni se presentan como controles interactivos.
