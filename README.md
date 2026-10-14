@@ -32,4 +32,4 @@ Los enlaces de SmartTurnos y MIGYM abren sus sitios reales en otra pestaña. Las
 
 ## Demo de sorteos
 
-La demo se integra mediante un iframe local con `sandbox="allow-scripts"`. Usa marca, precios, progreso, participantes y números ficticios. No integra las webs de los clientes, no conecta con procesadores de pago y no envía datos a ningún servidor. La consulta usa un email de ejemplo de solo lectura.
+La demo se integra mediante un iframe de contenido propio y del mismo origen con `sandbox="allow-scripts allow-same-origin"`. Usa marca, precios, progreso, participantes y números ficticios. No integra las webs de los clientes, no conecta con procesadores de pago y no envía datos a ningún servidor. La consulta usa un email de ejemplo de solo lectura.
