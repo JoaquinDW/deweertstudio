@@ -16,7 +16,7 @@ Abrir http://localhost:4321. También se puede abrir `dist/index.html` directame
 
 - `dist/index.html`: contenido, metadatos, enlaces y estructura.
 - `dist/styles.css`: diseño y adaptación a celulares.
-- `dist/app.js`: menú de la web institucional.
+- `dist/app.js`: menú de la web institucional y notificaciones animadas del hero.
 - `dist/sorteos-demo/`: miniweb embebida con packs de chances, simulación de confirmación, consulta de números y ganadores ficticios.
 - `dist/assets/moto-demo.jpg`: fotografía generada para el premio ficticio.
 - `context/marketing.md`: decisiones de contenido y límites de las afirmaciones.
@@ -37,3 +37,9 @@ Los enlaces de SmartTurnos y MIGYM abren sus sitios reales en otra pestaña. Las
 ## Demo de sorteos
 
 La demo se integra mediante un iframe de contenido propio y del mismo origen con `sandbox="allow-scripts allow-same-origin"`. Usa marca, precios, progreso, participantes y números ficticios. No integra las webs de los clientes, no conecta con procesadores de pago y no envía datos a ningún servidor. La consulta usa un email de ejemplo de solo lectura.
+
+## Notificaciones del hero
+
+El hero rota seis eventos ficticios de Sorteos, MIGYM y SmartTurnos: compra de chances, alta de socio, asistencia, registro de paciente, reprogramación y confirmación de turno. Los botones de cada sistema permiten recorrer sus ejemplos y el control de pausa detiene el ciclo. No se conectan APIs ni se usan datos reales.
+
+Las animaciones se suspenden cuando el hero sale de la vista o la pestaña pasa a segundo plano. Se respeta `prefers-reduced-motion`; los ejemplos siguen disponibles manualmente sin animación.
