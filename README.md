@@ -16,7 +16,9 @@ Abrir http://localhost:4321. También se puede abrir `dist/index.html` directame
 
 - `dist/index.html`: contenido, metadatos, enlaces y estructura.
 - `dist/styles.css`: diseño y adaptación a celulares.
-- `dist/app.js`: menú, pestañas accesibles y selección de números de demostración.
+- `dist/app.js`: menú de la web institucional.
+- `dist/sorteos-demo/`: miniweb embebida con packs de chances, simulación de confirmación, consulta de números y ganadores ficticios.
+- `dist/assets/moto-demo.jpg`: fotografía generada para el premio ficticio.
 - `context/marketing.md`: decisiones de contenido y límites de las afirmaciones.
 - `.openai/hosting.json`: configuración de la versión alojada en Sites.
 
@@ -27,3 +29,7 @@ El contenido de `dist/` puede publicarse en cualquier hosting estático. Las tip
 Todos los CTA de contacto abren WhatsApp al `5493794721825` con un mensaje relacionado con la sección. No envían mensajes automáticamente.
 
 Los enlaces de SmartTurnos y MIGYM abren sus sitios reales en otra pestaña. Las representaciones de interfaces son ilustrativas y están identificadas como tales. No hay enlaces a plataformas de clientes de sorteos, ni se realizan ventas o reservas desde esta demo.
+
+## Demo de sorteos
+
+La demo se integra mediante un iframe local con `sandbox="allow-scripts"`. Usa marca, precios, progreso, participantes y números ficticios. No integra las webs de los clientes, no conecta con procesadores de pago y no envía datos a ningún servidor. La consulta usa un email de ejemplo de solo lectura.
