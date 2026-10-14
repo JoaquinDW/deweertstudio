@@ -1,0 +1,29 @@
+# Deweert Studio
+
+Web institucional en español de Argentina. HTML, CSS y JavaScript sin dependencias de ejecución.
+
+## Vista local
+
+Desde esta carpeta, ejecutar:
+
+```sh
+npm run dev
+```
+
+Abrir http://localhost:4321. También se puede abrir `dist/index.html` directamente.
+
+## Archivos
+
+- `dist/index.html`: contenido, metadatos, enlaces y estructura.
+- `dist/styles.css`: diseño y adaptación a celulares.
+- `dist/app.js`: menú, pestañas accesibles y selección de números de demostración.
+- `context/marketing.md`: decisiones de contenido y límites de las afirmaciones.
+- `.openai/hosting.json`: configuración de la versión alojada en Sites.
+
+El contenido de `dist/` puede publicarse en cualquier hosting estático. Las tipografías se cargan desde Google Fonts y tienen alternativas locales.
+
+## Contacto y demostraciones
+
+Todos los CTA de contacto abren WhatsApp al `5493794721825` con un mensaje relacionado con la sección. No envían mensajes automáticamente.
+
+Los enlaces de SmartTurnos y MIGYM abren sus sitios reales en otra pestaña. Las representaciones de interfaces son ilustrativas y están identificadas como tales. No hay enlaces a plataformas de clientes de sorteos, ni se realizan ventas o reservas desde esta demo.
