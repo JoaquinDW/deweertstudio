@@ -24,6 +24,10 @@ Abrir http://localhost:4321. También se puede abrir `dist/index.html` directame
 
 El contenido de `dist/` puede publicarse en cualquier hosting estático. Las tipografías se cargan desde Google Fonts y tienen alternativas locales.
 
+## Vercel
+
+El archivo `vercel.json` configura el proyecto como una web estática, sin instalación ni compilación, y publica `dist/` como raíz del sitio. Al importar el repositorio, mantener el directorio raíz del proyecto en la raíz del repositorio. Los pushes a `main` disparan el despliegue mediante la integración de GitHub.
+
 ## Contacto y demostraciones
 
 Todos los CTA de contacto abren WhatsApp al `5493794721825` con un mensaje relacionado con la sección. No envían mensajes automáticamente.
