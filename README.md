@@ -21,7 +21,7 @@ Abrir http://localhost:4321. También se puede abrir `dist/index.html` directame
 - `dist/assets/moto-demo.jpg`: fotografía generada para el premio ficticio.
 - `dist/assets/fonts/`: tipografías alojadas en el sitio (Schibsted Grotesk para títulos, Newsreader italic para acentos, Public Sans para texto corrido; licencia SIL OFL).
 - `dist/assets/og-image.jpg`: imagen de vista previa para compartir el link (1200×630).
-- `dist/assets/proyectos/smartturnos.jpg`, `dist/assets/proyectos/migym.jpg`, `dist/assets/fotos/balthasar.jpg`: **placeholders marcados**, a reemplazar por capturas y fotos reales con el mismo nombre y proporción.
+- `dist/assets/proyectos/smartturnos.jpg`, `dist/assets/proyectos/migym.jpg`, `dist/assets/proyectos/pedipue.jpg`, `dist/assets/fotos/balthasar.jpg`: **placeholders marcados**, a reemplazar por capturas y fotos reales con el mismo nombre y proporción.
 - `context/marketing.md`: decisiones de contenido y límites de las afirmaciones.
 - `.openai/hosting.json`: configuración de la versión alojada en Sites.
 
@@ -35,7 +35,7 @@ El archivo `vercel.json` configura el proyecto como una web estática, sin insta
 
 Todos los CTA de contacto abren WhatsApp al `5493794721825` con un mensaje relacionado con la sección. No envían mensajes automáticamente.
 
-Los enlaces de SmartTurnos y MIGYM abren sus sitios reales en otra pestaña. Las tarjetas muestran capturas de cada producto (por ahora placeholders marcados, ver Archivos). No hay enlaces a plataformas de clientes de sorteos, ni se realizan ventas o reservas desde esta demo.
+Los enlaces de SmartTurnos, MIGYM y PediPue abren sus sitios reales en otra pestaña. Las tarjetas muestran capturas de cada producto (por ahora placeholders marcados, ver Archivos). No hay enlaces a plataformas de clientes de sorteos, ni se realizan ventas o reservas desde esta demo.
 
 ## Demo de sorteos
 
