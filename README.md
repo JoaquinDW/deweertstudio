@@ -21,7 +21,7 @@ Abrir http://localhost:4321. También se puede abrir `dist/index.html` directame
 - `dist/assets/moto-demo.jpg`: fotografía generada para el premio ficticio.
 - `dist/assets/fonts/`: tipografías alojadas en el sitio (Schibsted Grotesk para títulos, Newsreader italic para acentos, Public Sans para texto corrido; licencia SIL OFL).
 - `dist/assets/og-image.jpg`: imagen de vista previa para compartir el link (1200×630).
-- `dist/assets/proyectos/smartturnos.jpg`, `dist/assets/proyectos/migym.jpg`, `dist/assets/proyectos/pedipue.jpg`, `dist/assets/fotos/balthasar.jpg`: **placeholders marcados**, a reemplazar por capturas y fotos reales con el mismo nombre y proporción.
+- `dist/assets/proyectos/smartturnos.jpg`, `dist/assets/proyectos/migym.jpg`, `dist/assets/proyectos/pedipue.jpg`: capturas reales de cada producto. `dist/assets/fotos/balthasar.jpg`: foto del fundador.
 - `context/marketing.md`: decisiones de contenido y límites de las afirmaciones.
 - `.openai/hosting.json`: configuración de la versión alojada en Sites.
 
